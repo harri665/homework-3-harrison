@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Room.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Polymorphia-Homework-Sequence</a> &gt; <a href="index.source.html" class="el_package">polymorphia</a> &gt; <span class="el_source">Room.java</span></div><h1>Room.java</h1><pre class="source lang-java linenums">package polymorphia;
+
+import polymorphia.characters.Character;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class Room {
+<span class="fc" id="L10">    static private final Random rand = new Random();</span>
+
+    private final String name;
+<span class="fc" id="L13">    private final List&lt;Room&gt; neighbors = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L14">    private final List&lt;Character&gt; characters = new ArrayList&lt;&gt;();</span>
+
+<span class="fc" id="L16">    public Room(String name) {</span>
+<span class="fc" id="L17">        this.name = name;</span>
+<span class="fc" id="L18">    }</span>
+
+    public String getName() {
+<span class="fc" id="L21">        return name;</span>
+    }
+
+    public List&lt;Character&gt; getLivingCreatures() {
+<span class="fc" id="L25">        return getLivingCharacters().stream()</span>
+<span class="fc" id="L26">                .filter(Character::isCreature)</span>
+<span class="fc" id="L27">                .toList();</span>
+    }
+
+    public List&lt;Character&gt; getLivingAdventurers() {
+<span class="fc" id="L31">        return getLivingCharacters().stream()</span>
+<span class="fc" id="L32">                .filter(Character::isAdventurer)</span>
+<span class="fc" id="L33">                .toList();</span>
+    }
+
+    public List&lt;String&gt; getContents() {
+<span class="fc" id="L37">        return getLivingCharacters().stream()</span>
+<span class="fc" id="L38">                .map(Object::toString)</span>
+<span class="fc" id="L39">                .toList();</span>
+    }
+
+    public void addNeighbor(Room neighbor) {
+        // Make sure we are never a neighbor of ourselves
+<span class="pc bpc" id="L44" title="1 of 2 branches missed.">        assert this != neighbor;</span>
+<span class="fc" id="L45">        this.neighbors.add(neighbor);</span>
+<span class="fc" id="L46">    }</span>
+
+    public Room connect(Room neighbor) {
+<span class="fc" id="L49">        this.addNeighbor(neighbor);</span>
+<span class="fc" id="L50">        neighbor.addNeighbor(this);</span>
+<span class="fc" id="L51">        return this;</span>
+    }
+
+    public String toString() {
+<span class="fc" id="L55">        String representation = &quot;\t&quot; + name + &quot;:\n\t\t&quot;;</span>
+<span class="fc" id="L56">        representation += String.join(&quot;\n\t\t&quot;, getContents());</span>
+<span class="fc" id="L57">        return representation;</span>
+    }
+
+    public void add(Character character) {
+<span class="fc" id="L61">        characters.add(character);</span>
+<span class="fc" id="L62">        character.enterRoom(this);</span>
+<span class="fc" id="L63">    }</span>
+
+    public Boolean hasLivingCreatures() {
+        // Encapsulation: Room answers questions about its contents without exposing internal lists.
+<span class="fc" id="L67">        return getLivingCharacters().stream().anyMatch(Character::isCreature);</span>
+    }
+
+    public Boolean hasLivingAdventurers() {
+<span class="fc" id="L71">        return getLivingCharacters().stream().anyMatch(Character::isAdventurer);</span>
+    }
+
+    public void remove(Character character) {
+<span class="fc" id="L75">        characters.remove(character);</span>
+<span class="fc" id="L76">    }</span>
+
+    public Character getRandomCreature() {
+<span class="fc" id="L79">        List&lt;Character&gt; creatures = getLivingCreatures();</span>
+<span class="fc" id="L80">        return creatures.get(rand.nextInt(creatures.size()));</span>
+    }
+
+    public Room getRandomNeighbor() {
+<span class="fc bfc" id="L84" title="All 2 branches covered.">        if (neighbors.isEmpty()) {</span>
+<span class="fc" id="L85">            return null;</span>
+        }
+<span class="fc" id="L87">        return neighbors.stream().toList().get(rand.nextInt(neighbors.size()));</span>
+    }
+
+    public void enter(Character character) {
+<span class="fc" id="L91">        add(character);</span>
+<span class="fc" id="L92">    }</span>
+
+    public List&lt;Character&gt; getLivingCharacters() {
+<span class="fc" id="L95">        return characters.stream()</span>
+<span class="fc" id="L96">                .filter(Character::isAlive)</span>
+<span class="fc" id="L97">                .toList();</span>
+    }
+
+    public Character getRandomAdventurer() {
+<span class="fc" id="L101">        List&lt;Character&gt; creatures = getLivingAdventurers();</span>
+<span class="fc" id="L102">        return creatures.get(rand.nextInt(creatures.size()));</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

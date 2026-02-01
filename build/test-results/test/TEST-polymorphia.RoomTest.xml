@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="polymorphia.RoomTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-02-01T01:10:54.388Z" hostname="SPACE_HEATER" time="0.005">
+  <properties/>
+  <testcase name="getRandomNeighbor()" classname="polymorphia.RoomTest" time="0.003"/>
+  <testcase name="testToString()" classname="polymorphia.RoomTest" time="0.001"/>
+  <testcase name="testGetRandomNeighborOnRoomWithNoNeighbors()" classname="polymorphia.RoomTest" time="0.001"/>
+  <system-out><![CDATA[	onlyRoom:
+		Bilbo(health: 5.0)
+		Ogre(health: 4.0)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

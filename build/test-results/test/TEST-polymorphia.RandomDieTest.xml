@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="polymorphia.RandomDieTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-02-01T01:10:54.386Z" hostname="SPACE_HEATER" time="0.001">
+  <properties/>
+  <testcase name="testRollInRange()" classname="polymorphia.RandomDieTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

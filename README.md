@@ -2,12 +2,30 @@
 
 Put all team members' names here:
 
-    Names: <Team Members here>
+    Names: Harrison Martin
     Java Version: 23
     Test Coverage Screenshot pasted below:
+    ![Test Coverage](images/TestCoverage.png)
     ______________________________________
-    Game Output pasted below (or linked):
-    Test ran to produce the output below: <testname here>
+        Game Output pasted below (or linked):
+        Starting play...
+        Bilbo just died!
+
+        Polymorphia MAZE: turn 1
+        Northwest:
+
+
+        Northeast:
+            Guard(health: 3.0)
+
+        Southwest:
+
+
+        Southeast:
+            Ogre(health: 3.0)
+        The game ended after 1 turns.
+        The creatures won. Boo! Left standing are: Guard(health: 3.0), Ogre(health: 3.0)
+        Test ran to produce the output below: polymorphia.PolymorphiaTest.testGame
     ______________________________________
 
 # CSCI 4448/5448 - Homework 3: Dependency Injection and Logging

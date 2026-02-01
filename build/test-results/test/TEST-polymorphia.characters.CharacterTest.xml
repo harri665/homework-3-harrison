@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="polymorphia.characters.CharacterTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-02-01T01:10:54.396Z" hostname="SPACE_HEATER" time="0.007">
+  <properties/>
+  <testcase name="testMovingRoomLossOfQuarterPoint()" classname="polymorphia.characters.CharacterTest" time="0.001"/>
+  <testcase name="testToString()" classname="polymorphia.characters.CharacterTest" time="0.0"/>
+  <testcase name="testFightWithInjectedFixedDie()" classname="polymorphia.characters.CharacterTest" time="0.0"/>
+  <testcase name="testFightingMandatoryLossOfHalfAPoint()" classname="polymorphia.characters.CharacterTest" time="0.001"/>
+  <testcase name="testLoseHealthAndDeath()" classname="polymorphia.characters.CharacterTest" time="0.002"/>
+  <testcase name="isAlive()" classname="polymorphia.characters.CharacterTest" time="0.001"/>
+  <system-out><![CDATA[After moving rooms, Joe's health is: 4.75
+Joe(health: 5.0)
+After the fight, Joe's health is: 4.5
+?[33mJoe just died!
+?[0;39m]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

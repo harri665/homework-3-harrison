@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>FixedDie.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Polymorphia-Homework-Sequence</a> &gt; <a href="index.source.html" class="el_package">polymorphia</a> &gt; <span class="el_source">FixedDie.java</span></div><h1>FixedDie.java</h1><pre class="source lang-java linenums">package polymorphia;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FixedDie extends Die {
+    private final List&lt;Integer&gt; rolls;
+<span class="fc" id="L8">    private int index = 0;</span>
+
+    public FixedDie(int fixedValue) {
+<span class="fc" id="L11">        this(List.of(fixedValue));</span>
+<span class="fc" id="L12">    }</span>
+
+<span class="fc" id="L14">    public FixedDie(List&lt;Integer&gt; rolls) {</span>
+<span class="pc bpc" id="L15" title="2 of 4 branches missed.">        if (rolls == null || rolls.isEmpty()) {</span>
+<span class="nc" id="L16">            throw emptyRollsError();</span>
+        }
+<span class="fc" id="L18">        this.rolls = new ArrayList&lt;&gt;(rolls);</span>
+<span class="fc" id="L19">    }</span>
+
+    private static IllegalArgumentException emptyRollsError() {
+<span class="nc" id="L22">        return new IllegalArgumentException(&quot;Rolls list must not be empty&quot;);</span>
+    }
+
+    @Override
+    public int roll() {
+<span class="fc" id="L27">        int value = rolls.get(index);</span>
+<span class="fc" id="L28">        index = (index + 1) % rolls.size();</span>
+<span class="fc" id="L29">        return value;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

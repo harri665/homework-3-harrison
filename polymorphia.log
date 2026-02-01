@@ -1,0 +1,4457 @@
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		G1(health: 3.0)
+
+	North:
+		A2(health: 4.75)
+
+	Northeast:
+		
+
+	West:
+		G2(health: 3.0)
+
+	Center:
+		A1(health: 4.75)
+
+	East:
+		
+
+	Southwest:
+		A3(health: 4.0)
+		C2(health: 3.0)
+
+	South:
+		C1(health: 3.75)
+
+	Southeast:
+		C1(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		G1(health: 3.0)
+
+	North:
+		
+
+	Northeast:
+		
+
+	West:
+		G2(health: 3.0)
+		A1(health: 4.5)
+
+	Center:
+		C1(health: 3.25)
+		A2(health: 4.5)
+
+	East:
+		C1(health: 3.25)
+
+	Southwest:
+		A3(health: 3.0)
+		C2(health: 2.0)
+
+	South:
+		C1(health: 3.25)
+
+	Southeast:
+		C1(health: 3.25)Polymorphia MAZE: turn 3
+	Northwest:
+		G1(health: 3.0)
+
+	North:
+		
+
+	Northeast:
+		
+
+	West:
+		G2(health: 2.0)
+		A1(health: 3.5)
+
+	Center:
+		C1(health: 0.75)
+		A2(health: 2.0)
+
+	East:
+		C1(health: 0.75)
+
+	Southwest:
+		A3(health: 2.0)
+		C2(health: 1.0)
+
+	South:
+		C1(health: 0.75)
+
+	Southeast:
+		C1(health: 0.75)Polymorphia MAZE: turn 4
+	Northwest:
+		G1(health: 3.0)
+
+	North:
+		
+
+	Northeast:
+		
+
+	West:
+		G2(health: 1.0)
+		A1(health: 2.5)
+
+	Center:
+		A2(health: 1.0)
+
+	East:
+		
+
+	Southwest:
+		A3(health: 1.0)
+
+	South:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		G1(health: 3.0)
+
+	North:
+		
+
+	Northeast:
+		
+
+	West:
+		A1(health: 1.5)
+		A2(health: 0.75)
+
+	Center:
+		
+
+	East:
+		
+
+	Southwest:
+		
+
+	South:
+		A3(health: 0.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		G1(health: 2.5)
+		A1(health: 0.75)
+		A2(health: 0.5)
+
+	North:
+		
+
+	Northeast:
+		
+
+	West:
+		
+
+	Center:
+		
+
+	East:
+		
+
+	Southwest:
+		A3(health: 0.5)
+
+	South:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 7
+	Northwest:
+		G1(health: 1.0)
+
+	North:
+		
+
+	Northeast:
+		
+
+	West:
+		A3(health: 0.25)
+
+	Center:
+		
+
+	East:
+		
+
+	Southwest:
+		
+
+	South:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 8
+	Northwest:
+		G1(health: 1.0)
+
+	North:
+		
+
+	Northeast:
+		
+
+	West:
+		
+
+	Center:
+		
+
+	East:
+		
+
+	Southwest:
+		
+
+	South:
+		
+
+	Southeast:
+		The game ended after 8 turns.The creatures won. Boo! Left standing are: G1(health: 1.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 3.0)
+		Ogre(health: 3.75)
+
+	Northeast:
+		Bilbo(health: 4.75)
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		Bilbo(health: 2.75)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 2.5)Polymorphia MAZE: turn 4
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		Bilbo(health: 2.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 2.0)Polymorphia MAZE: turn 6
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 1.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 7
+	Northwest:
+		Guard(health: 3.0)
+		Bilbo(health: 1.5)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 8
+	Northwest:
+		Guard(health: 2.5)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 8 turns.The creatures won. Boo! Left standing are: Guard(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		A2(health: 3.5)
+		C3(health: 3.0)
+		G1(health: 2.5)
+		C2(health: 3.75)
+
+	Northeast:
+		C1(health: 3.75)
+		C2(health: 3.75)
+		G2(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		C1(health: 3.75)
+		A1(health: 4.75)Polymorphia MAZE: turn 2
+	Northwest:
+		A2(health: 1.0)
+		C3(health: 2.5)
+		G1(health: 2.0)
+		C2(health: 2.25)
+
+	Northeast:
+		C1(health: 2.25)
+		C2(health: 2.25)
+		G2(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		C1(health: 2.25)
+		A1(health: 3.25)Polymorphia MAZE: turn 3
+	Northwest:
+		C3(health: 2.0)
+		G1(health: 2.0)
+		C2(health: 1.5)
+
+	Northeast:
+		C1(health: 0.75)
+		C2(health: 1.5)
+		G2(health: 3.0)
+		C2(health: 1.5)
+
+	Southwest:
+		
+
+	Southeast:
+		C1(health: 0.75)
+		A1(health: 1.75)Polymorphia MAZE: turn 4
+	Northwest:
+		C3(health: 1.75)
+		G1(health: 2.0)
+
+	Northeast:
+		G2(health: 3.0)
+		C3(health: 1.75)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 4 turns.The creatures won. Boo! Left standing are: C3(health: 1.75), G1(health: 2.0), G2(health: 3.0), C3(health: 1.75)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 4.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+		Guard(health: 3.0)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 0.25)
+		Ogre(health: 2.75)
+
+	Northeast:
+		Ogre(health: 2.75)
+
+	Southwest:
+		Ogre(health: 2.75)
+		Guard(health: 3.0)
+
+	Southeast:
+		Ogre(health: 2.75)Polymorphia MAZE: turn 3
+	Northwest:
+		Ogre(health: 1.5)
+		Ogre(health: 1.5)
+
+	Northeast:
+		Ogre(health: 1.5)
+		Ogre(health: 1.5)
+
+	Southwest:
+		Ogre(health: 1.5)
+		Guard(health: 3.0)
+		Ogre(health: 1.5)
+
+	Southeast:
+		Ogre(health: 1.5)The game ended after 3 turns.The creatures won. Boo! Left standing are: Ogre(health: 1.5), Ogre(health: 1.5), Ogre(health: 1.5), Ogre(health: 1.5), Ogre(health: 1.5), Guard(health: 3.0), Ogre(health: 1.5), Ogre(health: 1.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 4.0)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 2.75)
+		Bilbo(health: 0.75)
+
+	Southeast:
+		Ogre(health: 2.75)Polymorphia MAZE: turn 3
+	Northwest:
+		Ogre(health: 2.0)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 2.0)
+
+	Southeast:
+		Ogre(health: 2.0)The game ended after 3 turns.The creatures won. Boo! Left standing are: Ogre(health: 2.0), Ogre(health: 2.0), Ogre(health: 2.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 2.5)
+		Ogre(health: 2.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 0.5)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 2 turns.The adventurers won! Left standing are: Bilbo(health: 0.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		Ogre(health: 3.75)
+
+	Southwest:
+		Bilbo(health: 3.0)
+		Guard(health: 2.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 3.25)
+
+	Northeast:
+		Ogre(health: 3.25)
+
+	Southwest:
+		Guard(health: 1.0)
+		Ogre(health: 3.25)
+
+	Southeast:
+		Ogre(health: 3.25)The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 3.25), Ogre(health: 3.25), Guard(health: 1.0), Ogre(health: 3.25), Ogre(health: 3.25)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 2.0)
+		Guard(health: 1.5)
+		Ogre(health: 3.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 3.25)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 0.5)
+		Guard(health: 1.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 3 turns.No team won! Everyone died!
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 2.5)
+		Bilbo(health: 2.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		Guard(health: 0.5)
+		Bilbo(health: 0.25)
+
+	Northeast:
+		Ogre(health: 3.25)
+
+	Southwest:
+		Ogre(health: 3.25)
+
+	Southeast:
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)Polymorphia MAZE: turn 3
+	Northwest:
+		Ogre(health: 2.25)
+
+	Northeast:
+		Ogre(health: 2.25)
+		Ogre(health: 2.25)
+		Ogre(health: 2.25)
+
+	Southwest:
+		Ogre(health: 2.25)
+
+	Southeast:
+		Ogre(health: 2.25)
+		Ogre(health: 2.25)
+		Ogre(health: 2.25)The game ended after 3 turns.The creatures won. Boo! Left standing are: Ogre(health: 2.25), Ogre(health: 2.25), Ogre(health: 2.25), Ogre(health: 2.25), Ogre(health: 2.25), Ogre(health: 2.25), Ogre(health: 2.25), Ogre(health: 2.25)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 3.0)
+		Guard(health: 1.5)The game ended after 1 turns.The creatures won. Boo! Left standing are: Ogre(health: 3.0), Guard(health: 1.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Guard(health: 2.0)
+		Ogre(health: 3.75)The game ended after 1 turns.The creatures won. Boo! Left standing are: Ogre(health: 3.75), Guard(health: 2.0), Ogre(health: 3.75)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 4.0)
+		Ogre(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 3.5)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 3.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 2.5)
+		Bilbo(health: 0.5)Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 2.0)The game ended after 5 turns.The creatures won. Boo! Left standing are: Guard(health: 2.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 2.0)
+		Ogre(health: 1.0)Polymorphia MAZE: turn 2
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 1.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		Guard(health: 3.0)
+		Bilbo(health: 1.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		Guard(health: 2.5)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 4 turns.The creatures won. Boo! Left standing are: Guard(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+		Bilbo(health: 4.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 2.75)
+
+	Northeast:
+		Ogre(health: 2.75)
+
+	Southwest:
+		Ogre(health: 2.75)
+
+	Southeast:
+		Ogre(health: 2.75)The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 2.75), Ogre(health: 2.75), Ogre(health: 2.75), Ogre(health: 2.75)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		Ogre(health: 3.75)
+
+	Southwest:
+		Bilbo(health: 4.0)
+		Guard(health: 1.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)
+
+	Northeast:
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)
+
+	Southwest:
+		Bilbo(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 2.5)
+
+	Southeast:
+		The game ended after 3 turns.The adventurers won! Left standing are: Bilbo(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 3.0)
+		Ogre(health: 1.0)Polymorphia MAZE: turn 2
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 0.25)
+
+	Southeast:
+		Ogre(health: 0.25)The game ended after 2 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0), Ogre(health: 0.25), Ogre(health: 0.25)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+		Guard(health: 3.0)
+
+	Southeast:
+		Bilbo(health: 4.75)Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)
+
+	Northeast:
+		Ogre(health: 3.25)
+
+	Southwest:
+		Ogre(health: 3.25)
+		Guard(health: 3.0)
+		Bilbo(health: 4.5)
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 1.0)
+		Bilbo(health: 0.5)
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 0.5)
+
+	Southeast:
+		The game ended after 4 turns.The creatures won. Boo! Left standing are: Guard(health: 0.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 1.0)
+		Ogre(health: 3.0)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 2.0)The game ended after 2 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0), Ogre(health: 2.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 2.75)Polymorphia MAZE: turn 3
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		Bilbo(health: 2.5)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 2.25)Polymorphia MAZE: turn 5
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		Bilbo(health: 2.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		Guard(health: 2.5)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 6 turns.The creatures won. Boo! Left standing are: Guard(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+		Bilbo(health: 4.75)
+
+	Northeast:
+		Ogre(health: 3.75)
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 0.25)
+
+	Northeast:
+		Ogre(health: 0.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 0.25), Ogre(health: 0.25), Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 4.75)
+		Ogre(health: 3.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 2.5)
+
+	Northeast:
+		Ogre(health: 2.5)
+
+	Southwest:
+		Ogre(health: 2.5)
+		Guard(health: 3.0)
+
+	Southeast:
+		The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 2.5), Ogre(health: 2.5), Ogre(health: 2.5), Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+		Bilbo(health: 4.75)
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 2.0)
+		Ogre(health: 2.0)
+
+	Southwest:
+		Ogre(health: 2.0)
+
+	Southeast:
+		Ogre(health: 2.0)The game ended after 2 turns.The creatures won. Boo! Left standing are: Guard(health: 2.0), Ogre(health: 2.0), Ogre(health: 2.0), Ogre(health: 2.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 3.0)
+		Bilbo(health: 4.75)
+
+	Northeast:
+		Ogre(health: 3.75)
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 1.25)
+		Ogre(health: 3.0)
+
+	Northeast:
+		Ogre(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 3.0)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 3 turns.No team won! Everyone died!
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 4.0)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 3.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		Bilbo(health: 3.5)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+		Bilbo(health: 3.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 2.0)
+		Bilbo(health: 0.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 1.5)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 6 turns.The creatures won. Boo! Left standing are: Guard(health: 1.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 2.0)
+
+	Northeast:
+		Ogre(health: 3.75)
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 3.75)The game ended after 1 turns.The creatures won. Boo! Left standing are: Guard(health: 2.0), Ogre(health: 3.75), Ogre(health: 3.75)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		Bilbo(health: 3.0)
+		Ogre(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		Bilbo(health: 1.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 0.75)Polymorphia MAZE: turn 4
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 0.5)
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 0.25)Polymorphia MAZE: turn 6
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 6 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 4.75)
+		Ogre(health: 3.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 2 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 4.0)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Bilbo(health: 3.75)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 3.5)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		Bilbo(health: 3.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 0.5)
+		Bilbo(health: 2.5)
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 1.75)The game ended after 6 turns.The adventurers won! Left standing are: Bilbo(health: 1.75)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 4.0)
+		Ogre(health: 1.0)
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)
+		Bilbo(health: 3.25)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 2.25)The game ended after 3 turns.The adventurers won! Left standing are: Bilbo(health: 2.25)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Ogre(health: 1.5)
+		Bilbo(health: 4.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 3.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		Bilbo(health: 3.5)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 3.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 3.0)Polymorphia MAZE: turn 6
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 2.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 7
+	Northwest:
+		Bilbo(health: 2.5)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 8
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 2.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 9
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 2.0)Polymorphia MAZE: turn 10
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+		Bilbo(health: 1.75)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 11
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 1.0)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 11 turns.The creatures won. Boo! Left standing are: Guard(health: 1.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 4.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 4.0)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 3.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 3.5)Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 3.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 3.0)Polymorphia MAZE: turn 7
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 2.5)
+		Bilbo(health: 0.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 8
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 8 turns.No team won! Everyone died!
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 3.0)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Bilbo(health: 2.75)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 2.5)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		Bilbo(health: 2.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 2.0)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		Bilbo(health: 1.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 7
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 1.5)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 8
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Bilbo(health: 1.25)Polymorphia MAZE: turn 9
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 1.0)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 10
+	Northwest:
+		Bilbo(health: 0.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 11
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 0.5)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 12
+	Northwest:
+		Bilbo(health: 0.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 13
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		The game ended after 13 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 3.0)
+		Ogre(health: 3.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 2.5)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 2 turns.The adventurers won! Left standing are: Bilbo(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Bilbo(health: 2.0)
+		Ogre(health: 3.0)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Ogre(health: 1.0)The game ended after 2 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0), Ogre(health: 1.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Ogre(health: 3.5)
+		Bilbo(health: 3.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Ogre(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 3.0), Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 4.0)
+		Guard(health: 2.0)
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Ogre(health: 3.0)
+
+	Southwest:
+		Ogre(health: 3.0)
+
+	Southeast:
+		Ogre(health: 3.0)The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 3.0), Ogre(health: 3.0), Ogre(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.5)
+		Bilbo(health: 4.25)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 1.5)
+		Bilbo(health: 3.25)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 3
+	Northwest:
+		Ogre(health: 1.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)The game ended after 3 turns.The creatures won. Boo! Left standing are: Ogre(health: 1.0), Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 1 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 3.5)
+		Guard(health: 2.5)
+		Bilbo(health: 0.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 1.0)The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 1.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+		Bilbo(health: 4.75)
+
+	Southeast:
+		Guard(health: 3.0)
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 0.5)
+		Bilbo(health: 1.75)
+		Ogre(health: 0.5)
+
+	Southeast:
+		Guard(health: 3.0)
+		Ogre(health: 0.5)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 1.25)
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 4
+	Northwest:
+		Bilbo(health: 1.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 0.75)
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 6
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 1.5)The game ended after 6 turns.The creatures won. Boo! Left standing are: Guard(health: 1.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.0)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 1 turns.The creatures won. Boo! Left standing are: Ogre(health: 3.0), Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 3.0)
+		Ogre(health: 3.0)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 1.0)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+		Bilbo(health: 0.75)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 4 turns.No team won! Everyone died!
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 3.0)
+		Ogre(health: 2.0)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 2.5)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 2.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 2.0)Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 1.5)
+		Bilbo(health: 1.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 1.0)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 6 turns.The creatures won. Boo! Left standing are: Guard(health: 1.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 4.75)
+		Ogre(health: 3.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 0.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 0.5)Polymorphia MAZE: turn 4
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 0.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 5 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 4.75)
+
+	Southwest:
+		Ogre(health: 3.75)
+		Guard(health: 3.0)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 1.75)
+		Ogre(health: 0.5)
+
+	Southwest:
+		Ogre(health: 0.5)
+		Guard(health: 3.0)
+
+	Southeast:
+		Ogre(health: 0.5)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Bilbo(health: 1.0)Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 0.75)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		Bilbo(health: 0.5)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 0.25)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 7
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		The game ended after 7 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 4.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Guard(health: 3.0)
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 1.0)
+		Bilbo(health: 4.0)
+		Ogre(health: 1.0)
+
+	Southeast:
+		Guard(health: 3.0)
+		Ogre(health: 1.0)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 2.5)The game ended after 3 turns.The creatures won. Boo! Left standing are: Guard(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 2.5)
+		Bilbo(health: 4.25)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 1.5)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 1.5), Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 2.0)
+		Ogre(health: 2.0)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 2 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.25)
+
+	Southeast:
+		Ogre(health: 3.25)The game ended after 1 turns.The creatures won. Boo! Left standing are: Ogre(health: 3.25), Ogre(health: 3.25)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Ogre(health: 3.75)The game ended after 1 turns.The creatures won. Boo! Left standing are: Ogre(health: 3.75), Ogre(health: 3.75)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+		Bilbo(health: 4.75)
+		Ogre(health: 3.75)
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 2.5)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 2 turns.The creatures won. Boo! Left standing are: Guard(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 4.5)
+		Ogre(health: 2.25)
+
+	Southeast:
+		Ogre(health: 2.25)Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 1.5)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Ogre(health: 1.5)
+
+	Southeast:
+		Ogre(health: 1.5)The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 1.5), Guard(health: 3.0), Ogre(health: 1.5), Ogre(health: 1.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+		Bilbo(health: 4.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 2.25)
+
+	Southeast:
+		The game ended after 2 turns.The adventurers won! Left standing are: Bilbo(health: 2.25)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.0)
+
+	Southeast:
+		Guard(health: 3.0)The game ended after 1 turns.The creatures won. Boo! Left standing are: Ogre(health: 3.0), Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.25)
+		Guard(health: 3.0)
+
+	Northeast:
+		Bilbo(health: 1.5)
+		Ogre(health: 3.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 2.5)
+		Guard(health: 3.0)
+		Ogre(health: 2.5)
+
+	Northeast:
+		Ogre(health: 2.5)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 2.5), Guard(health: 3.0), Ogre(health: 2.5), Ogre(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 4.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 4.0)
+
+	Southwest:
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)
+
+	Southeast:
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)Polymorphia MAZE: turn 3
+	Northwest:
+		Ogre(health: 1.5)
+
+	Northeast:
+		Ogre(health: 1.5)
+
+	Southwest:
+		Ogre(health: 1.5)
+		Ogre(health: 1.5)
+
+	Southeast:
+		Ogre(health: 1.5)
+		Ogre(health: 1.5)
+		Ogre(health: 1.5)The game ended after 3 turns.The creatures won. Boo! Left standing are: Ogre(health: 1.5), Ogre(health: 1.5), Ogre(health: 1.5), Ogre(health: 1.5), Ogre(health: 1.5), Ogre(health: 1.5), Ogre(health: 1.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+		Guard(health: 3.0)
+
+	Southeast:
+		Ogre(health: 3.75)
+		Bilbo(health: 4.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Bilbo(health: 2.25)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 2.0)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Bilbo(health: 1.75)Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 1.5)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		Bilbo(health: 1.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 7
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 1.0)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 8
+	Northwest:
+		Bilbo(health: 0.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 9
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+		Bilbo(health: 0.5)
+
+	Southeast:
+		Polymorphia MAZE: turn 10
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 0.5)
+
+	Southeast:
+		The game ended after 10 turns.The creatures won. Boo! Left standing are: Guard(health: 0.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Ogre(health: 3.75)
+		Bilbo(health: 4.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 1.25)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Ogre(health: 1.25)
+
+	Southeast:
+		The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 1.25), Guard(health: 3.0), Ogre(health: 1.25)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		Guard(health: 2.5)
+		Bilbo(health: 2.25)
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 3.0)
+
+	Northeast:
+		Ogre(health: 3.0)
+
+	Southwest:
+		Ogre(health: 3.0)
+
+	Southeast:
+		The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 3.0), Ogre(health: 3.0), Ogre(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 4.75)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)
+		Bilbo(health: 4.5)
+
+	Southeast:
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 2.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 1.75)Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 2.5)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 5 turns.The creatures won. Boo! Left standing are: Guard(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 3.0)
+		Ogre(health: 3.5)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 2.0)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 2 turns.The adventurers won! Left standing are: Bilbo(health: 2.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 4.0)
+		Ogre(health: 3.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 1.5)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 2 turns.The adventurers won! Left standing are: Bilbo(health: 1.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 4.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Ogre(health: 3.75)
+		Guard(health: 3.0)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 0.5)
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)
+		Bilbo(health: 0.25)Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 2.5)The game ended after 4 turns.The creatures won. Boo! Left standing are: Guard(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Ogre(health: 3.75)
+
+	Southwest:
+		Bilbo(health: 4.25)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 3.25)
+		Bilbo(health: 4.0)
+
+	Northeast:
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 3.25)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 3 turns.No team won! Everyone died!
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		Bilbo(health: 4.75)
+
+	Southwest:
+		Ogre(health: 3.75)
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 3.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.25)
+		Guard(health: 3.0)
+		Ogre(health: 3.25)
+
+	Southeast:
+		Ogre(health: 3.25)
+		Bilbo(health: 4.5)Polymorphia MAZE: turn 3
+	Northwest:
+		Ogre(health: 1.5)
+
+	Northeast:
+		Ogre(health: 1.5)
+
+	Southwest:
+		Ogre(health: 1.5)
+		Guard(health: 3.0)
+		Ogre(health: 1.5)
+
+	Southeast:
+		Ogre(health: 1.5)The game ended after 3 turns.The creatures won. Boo! Left standing are: Ogre(health: 1.5), Ogre(health: 1.5), Ogre(health: 1.5), Guard(health: 3.0), Ogre(health: 1.5), Ogre(health: 1.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 1.25)
+
+	Southeast:
+		Bilbo(health: 4.5)
+		Ogre(health: 1.25)Polymorphia MAZE: turn 2
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 3.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		Guard(health: 3.0)
+		Bilbo(health: 3.5)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		Guard(health: 2.0)
+		Bilbo(health: 1.5)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 0.75)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 5 turns.The adventurers won! Left standing are: Bilbo(health: 0.75)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 4.75)
+		Ogre(health: 3.75)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 0.25)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		The game ended after 3 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 3.0)
+		Ogre(health: 2.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 2.0)
+		Ogre(health: 1.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 3
+	Northwest:
+		Ogre(health: 0.5)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)The game ended after 3 turns.The creatures won. Boo! Left standing are: Ogre(health: 0.5), Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 3.0)
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 2.75)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 2.5)
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)
+		Bilbo(health: 2.25)Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 5 turns.No team won! Everyone died!
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		Ogre(health: 3.75)
+		Guard(health: 2.0)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 1 turns.The creatures won. Boo! Left standing are: Ogre(health: 3.75), Ogre(health: 3.75), Guard(health: 2.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		Ogre(health: 3.75)
+
+	Southwest:
+		Guard(health: 2.0)
+
+	Southeast:
+		The game ended after 1 turns.The creatures won. Boo! Left standing are: Ogre(health: 3.75), Ogre(health: 3.75), Guard(health: 2.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 2.0)
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Ogre(health: 3.75)The game ended after 1 turns.The creatures won. Boo! Left standing are: Guard(health: 2.0), Ogre(health: 3.75), Ogre(health: 3.75)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 3.5)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 1 turns.The adventurers won! Left standing are: Bilbo(health: 3.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Ogre(health: 3.5)
+		Bilbo(health: 0.25)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Ogre(health: 3.0)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 3.0), Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		Ogre(health: 3.75)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 2.0)Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)
+
+	Northeast:
+		Ogre(health: 3.25)
+		Bilbo(health: 1.75)
+
+	Southwest:
+		Ogre(health: 3.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		Bilbo(health: 1.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 3 turns.The adventurers won! Left standing are: Bilbo(health: 1.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 2.5)
+		Bilbo(health: 4.25)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 3.75)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 3.5)
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 4
+	Northwest:
+		Bilbo(health: 3.25)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 3.0)
+
+	Southeast:
+		Guard(health: 3.0)Polymorphia MAZE: turn 6
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 1.5)
+		Bilbo(health: 2.25)Polymorphia MAZE: turn 7
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 1.0)The game ended after 7 turns.The creatures won. Boo! Left standing are: Guard(health: 1.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 3.5)
+		Bilbo(health: 3.25)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 2.5)The game ended after 2 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0), Ogre(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 3.5)The game ended after 1 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0), Ogre(health: 3.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+		Bilbo(health: 4.75)
+
+	Southeast:
+		Guard(health: 3.0)
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Ogre(health: 1.75)
+
+	Southwest:
+		Ogre(health: 1.75)
+		Bilbo(health: 4.25)
+
+	Southeast:
+		Guard(health: 3.0)
+		Ogre(health: 1.75)
+		Ogre(health: 1.75)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)
+		Bilbo(health: 3.5)Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 2.5)The game ended after 4 turns.The creatures won. Boo! Left standing are: Guard(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+		Ogre(health: 3.75)
+
+	Southwest:
+		Bilbo(health: 4.75)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 4.0)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 3.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		Bilbo(health: 3.5)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 3.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 3.0)Polymorphia MAZE: turn 7
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 2.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 8
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 2.5)Polymorphia MAZE: turn 9
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 2.5)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 9 turns.The creatures won. Boo! Left standing are: Guard(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 2.0)
+		Ogre(health: 1.0)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 1.5)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 1.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		Bilbo(health: 1.0)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+		Bilbo(health: 0.75)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 6 turns.No team won! Everyone died!
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 2.25)
+		Guard(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 4.5)
+		Ogre(health: 2.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Guard(health: 3.0)
+		Bilbo(health: 3.75)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		Guard(health: 2.0)
+		Bilbo(health: 1.75)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 4 turns.No team won! Everyone died!
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		Guard(health: 3.0)
+		Ogre(health: 3.75)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 4.75)Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 2.5)
+
+	Northeast:
+		Guard(health: 3.0)
+		Ogre(health: 2.5)
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 2.5)The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 2.5), Guard(health: 3.0), Ogre(health: 2.5), Ogre(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.5)
+		Bilbo(health: 3.25)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 2.25)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+		Bilbo(health: 2.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 2.5)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 4 turns.The creatures won. Boo! Left standing are: Guard(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Ogre(health: 3.75)
+		Bilbo(health: 4.75)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Ogre(health: 1.5)
+		Bilbo(health: 3.75)
+		Ogre(health: 1.5)
+
+	Southeast:
+		Ogre(health: 1.5)Polymorphia MAZE: turn 3
+	Northwest:
+		Bilbo(health: 3.0)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 2.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 2.5)Polymorphia MAZE: turn 6
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 2.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 7
+	Northwest:
+		Bilbo(health: 2.0)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 8
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 2.5)
+		Bilbo(health: 0.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 9
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 9 turns.No team won! Everyone died!
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		Bilbo(health: 4.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Guard(health: 2.5)
+		Bilbo(health: 3.5)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		Bilbo(health: 2.5)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 3 turns.The adventurers won! Left standing are: Bilbo(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 4.5)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 3.25)
+
+	Northeast:
+		Bilbo(health: 4.25)
+
+	Southwest:
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)
+
+	Southeast:
+		Ogre(health: 3.25)Polymorphia MAZE: turn 3
+	Northwest:
+		Bilbo(health: 3.0)
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 3 turns.The adventurers won! Left standing are: Bilbo(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 2.0)
+		Ogre(health: 3.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 2.75)
+		Ogre(health: 2.75)
+
+	Northeast:
+		Ogre(health: 2.75)
+
+	Southwest:
+		Ogre(health: 2.75)
+
+	Southeast:
+		The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 2.75), Ogre(health: 2.75), Ogre(health: 2.75), Ogre(health: 2.75)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 3.0)
+		Ogre(health: 3.75)
+		Bilbo(health: 4.75)
+
+	Northeast:
+		Ogre(health: 3.75)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 0.75)
+
+	Northeast:
+		Ogre(health: 0.75)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 0.75), Ogre(health: 0.75)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Ogre(health: 3.75)
+
+	Southwest:
+		Guard(health: 3.0)
+		Bilbo(health: 4.75)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 4.0)
+
+	Northeast:
+		Ogre(health: 3.25)
+
+	Southwest:
+		Ogre(health: 3.25)
+
+	Southeast:
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)Polymorphia MAZE: turn 3
+	Northwest:
+		Bilbo(health: 1.0)
+		Ogre(health: 0.5)
+
+	Northeast:
+		Ogre(health: 0.5)
+		Ogre(health: 0.5)
+
+	Southwest:
+		Ogre(health: 0.5)
+
+	Southeast:
+		Ogre(health: 0.5)
+		Ogre(health: 0.5)
+		Ogre(health: 0.5)Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 4 turns.No team won! Everyone died!
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 2.5)
+		Bilbo(health: 4.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Bilbo(health: 3.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 3.0)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		Bilbo(health: 2.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 2.5)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		Bilbo(health: 2.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 7
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+		Bilbo(health: 2.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 8
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 8 turns.No team won! Everyone died!
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 4.75)
+
+	Southwest:
+		Guard(health: 3.0)
+		Ogre(health: 3.75)
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 3.25)
+		Bilbo(health: 4.5)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)
+
+	Southeast:
+		Ogre(health: 3.25)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 2.5)
+		Bilbo(health: 1.75)
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 1.25)
+
+	Southeast:
+		The game ended after 4 turns.The adventurers won! Left standing are: Bilbo(health: 1.25)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 2.5)
+		Ogre(health: 3.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.25)
+
+	Southeast:
+		The game ended after 1 turns.The creatures won. Boo! Left standing are: Guard(health: 2.5), Ogre(health: 3.25), Ogre(health: 3.25)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.75)
+
+	Southeast:
+		Guard(health: 3.0)
+		Bilbo(health: 4.75)Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 3.25)
+		Ogre(health: 3.25)
+
+	Northeast:
+		Ogre(health: 3.25)
+
+	Southwest:
+		Ogre(health: 3.25)
+
+	Southeast:
+		Guard(health: 1.0)
+		Bilbo(health: 3.75)Polymorphia MAZE: turn 3
+	Northwest:
+		Ogre(health: 2.0)
+		Ogre(health: 2.0)
+		Ogre(health: 2.0)
+
+	Northeast:
+		Ogre(health: 2.0)
+		Ogre(health: 2.0)
+
+	Southwest:
+		Ogre(health: 2.0)
+
+	Southeast:
+		Bilbo(health: 1.75)
+		Ogre(health: 2.0)Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Bilbo(health: 1.0)
+
+	Southeast:
+		The game ended after 4 turns.The adventurers won! Left standing are: Bilbo(health: 1.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Bilbo(health: 4.5)
+		Ogre(health: 2.25)
+
+	Northeast:
+		Ogre(health: 2.25)
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+		Bilbo(health: 3.75)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 3 turns.No team won! Everyone died!
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.5)
+		Bilbo(health: 4.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 1.5)
+		Bilbo(health: 2.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		Bilbo(health: 1.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 1.5)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		Bilbo(health: 1.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 1.0)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 7
+	Northwest:
+		Bilbo(health: 0.75)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 8
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 0.5)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 9
+	Northwest:
+		Bilbo(health: 0.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 10
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		The game ended after 10 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 4.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Bilbo(health: 3.75)Polymorphia MAZE: turn 3
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		Bilbo(health: 3.5)
+
+	Southeast:
+		Polymorphia MAZE: turn 4
+	Northwest:
+		Bilbo(health: 3.25)
+
+	Northeast:
+		Guard(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 5
+	Northwest:
+		
+
+	Northeast:
+		Guard(health: 3.0)
+		Bilbo(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		Polymorphia MAZE: turn 6
+	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 2.0)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 6 turns.The adventurers won! Left standing are: Bilbo(health: 2.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Ogre(health: 3.75)
+		Bilbo(health: 4.75)
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Ogre(health: 2.5)
+		Ogre(health: 2.5)
+
+	Southwest:
+		
+
+	Southeast:
+		Guard(health: 3.0)
+		Ogre(health: 2.5)The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 2.5), Ogre(health: 2.5), Guard(health: 3.0), Ogre(health: 2.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Guard(health: 2.0)
+		Ogre(health: 3.75)
+
+	Southeast:
+		Ogre(health: 3.75)The game ended after 1 turns.The creatures won. Boo! Left standing are: Guard(health: 2.0), Ogre(health: 3.75), Ogre(health: 3.75)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.25)
+		Guard(health: 3.0)
+
+	Southeast:
+		Bilbo(health: 3.5)
+		Ogre(health: 3.25)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 0.75)
+		Guard(health: 3.0)
+
+	Southeast:
+		Ogre(health: 0.75)The game ended after 2 turns.The creatures won. Boo! Left standing are: Ogre(health: 0.75), Guard(health: 3.0), Ogre(health: 0.75)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Guard(health: 3.0)
+
+	Northeast:
+		Ogre(health: 3.0)
+
+	Southwest:
+		
+
+	Southeast:
+		The game ended after 1 turns.The creatures won. Boo! Left standing are: Guard(health: 3.0), Ogre(health: 3.0)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		
+
+	Northeast:
+		Ogre(health: 3.75)
+		Guard(health: 0.5)
+		Bilbo(health: 4.25)
+
+	Southwest:
+		
+
+	Southeast:
+		Ogre(health: 3.75)Polymorphia MAZE: turn 2
+	Northwest:
+		
+
+	Northeast:
+		Ogre(health: 2.75)
+		Bilbo(health: 0.25)
+
+	Southwest:
+		Ogre(health: 2.75)
+
+	Southeast:
+		Ogre(health: 2.75)
+		Ogre(health: 2.75)Polymorphia MAZE: turn 3
+	Northwest:
+		Ogre(health: 0.5)
+
+	Northeast:
+		Ogre(health: 0.5)
+		Ogre(health: 0.5)
+		Ogre(health: 0.5)
+
+	Southwest:
+		Ogre(health: 0.5)
+
+	Southeast:
+		Ogre(health: 0.5)
+		Ogre(health: 0.5)The game ended after 3 turns.The creatures won. Boo! Left standing are: Ogre(health: 0.5), Ogre(health: 0.5), Ogre(health: 0.5), Ogre(health: 0.5), Ogre(health: 0.5), Ogre(health: 0.5), Ogre(health: 0.5)
+Starting play...Polymorphia MAZE: turn 1
+	Northwest:
+		Ogre(health: 3.75)
+
+	Northeast:
+		Bilbo(health: 4.75)
+
+	Southwest:
+		Ogre(health: 3.75)
+		Guard(health: 3.0)
+
+	Southeast:
+		Polymorphia MAZE: turn 2
+	Northwest:
+		Ogre(health: 3.25)
+		Bilbo(health: 4.5)
+		Ogre(health: 3.25)
+
+	Northeast:
+		
+
+	Southwest:
+		Ogre(health: 3.25)
+		Guard(health: 3.0)
+		Ogre(health: 3.25)
+
+	Southeast:
+		Polymorphia MAZE: turn 3
+	Northwest:
+		Ogre(health: 1.75)
+		Ogre(health: 1.75)
+
+	Northeast:
+		Ogre(health: 1.75)
+
+	Southwest:
+		Ogre(health: 1.75)
+		Guard(health: 3.0)
+		Ogre(health: 1.75)
+
+	Southeast:
+		Ogre(health: 1.75)The game ended after 3 turns.The creatures won. Boo! Left standing are: Ogre(health: 1.75), Ogre(health: 1.75), Ogre(health: 1.75), Ogre(health: 1.75), Guard(health: 3.0), Ogre(health: 1.75), Ogre(health: 1.75)

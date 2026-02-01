@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="polymorphia.MazeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-02-01T01:10:53.973Z" hostname="SPACE_HEATER" time="0.238">
+  <properties/>
+  <testcase name="hasLivingAdventurers()" classname="polymorphia.MazeTest" time="0.229"/>
+  <testcase name="testToString()" classname="polymorphia.MazeTest" time="0.005"/>
+  <testcase name="hasLivingCreatures()" classname="polymorphia.MazeTest" time="0.001"/>
+  <testcase name="create2x2Grid()" classname="polymorphia.MazeTest" time="0.0"/>
+  <testcase name="testLivingCreatures()" classname="polymorphia.MazeTest" time="0.001"/>
+  <testcase name="create3x3Grid()" classname="polymorphia.MazeTest" time="0.001"/>
+  <system-out><![CDATA[	Northwest:
+		
+
+	Northeast:
+		Bilbo(health: 5.0)
+
+	Southwest:
+		Guard(health: 3.0)
+
+	Southeast:
+		Ogre(health: 4.0)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

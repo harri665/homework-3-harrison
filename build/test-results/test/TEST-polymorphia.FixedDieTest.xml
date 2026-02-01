@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="polymorphia.FixedDieTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-02-01T01:10:53.968Z" hostname="SPACE_HEATER" time="0.001">
+  <properties/>
+  <testcase name="testFixedValueAlwaysRollsSame()" classname="polymorphia.FixedDieTest" time="0.001"/>
+  <testcase name="testSequenceCycles()" classname="polymorphia.FixedDieTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -13,9 +13,13 @@ public class FixedDie extends Die {
 
     public FixedDie(List<Integer> rolls) {
         if (rolls == null || rolls.isEmpty()) {
-            throw new IllegalArgumentException("Rolls list must not be empty");
+            throw emptyRollsError();
         }
         this.rolls = new ArrayList<>(rolls);
+    }
+
+    private static IllegalArgumentException emptyRollsError() {
+        return new IllegalArgumentException("Rolls list must not be empty");
     }
 
     @Override

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="polymorphia.DieTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-02-01T01:10:53.950Z" hostname="SPACE_HEATER" time="0.015">
+  <properties/>
+  <testcase name="testRoll()" classname="polymorphia.DieTest" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

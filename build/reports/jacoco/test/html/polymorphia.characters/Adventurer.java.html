@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Adventurer.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Polymorphia-Homework-Sequence</a> &gt; <a href="index.source.html" class="el_package">polymorphia.characters</a> &gt; <span class="el_source">Adventurer.java</span></div><h1>Adventurer.java</h1><pre class="source lang-java linenums">package polymorphia.characters;
+
+
+import polymorphia.Die;
+import polymorphia.Room;
+
+// Inheritance: Adventurer extends Character to reuse and specialize shared behavior.
+public class Adventurer extends Character {
+<span class="fc" id="L9">    static Double DEFAULT_INITIAL_HEALTH = 5.0;</span>
+
+    public Adventurer(String name) {
+<span class="fc" id="L12">        super(name, DEFAULT_INITIAL_HEALTH, Die.sixSided());</span>
+<span class="fc" id="L13">    }</span>
+
+    public Adventurer(String name, Die die) {
+<span class="fc" id="L16">        super(name, DEFAULT_INITIAL_HEALTH, die);</span>
+<span class="fc" id="L17">    }</span>
+
+    public void enterRoom(Room room) {
+<span class="fc bfc" id="L20" title="All 2 branches covered.">        if (getCurrentLocation() != null) {</span>
+<span class="pc bpc" id="L21" title="1 of 2 branches missed.">            if (getCurrentLocation().equals(room)) {</span>
+<span class="nc" id="L22">                return;</span>
+            }
+<span class="fc" id="L24">            getCurrentLocation().remove(this);</span>
+        }
+<span class="fc" id="L26">        super.enterRoom(room);</span>
+<span class="fc" id="L27">    }</span>
+
+    public void doAction() {
+<span class="fc bfc" id="L30" title="All 2 branches covered.">        if (shouldFight()) {</span>
+<span class="fc" id="L31">            fight(getCurrentLocation().getRandomCreature());</span>
+        } else {
+<span class="fc" id="L33">            move();</span>
+        }
+<span class="fc" id="L35">    }</span>
+
+    Boolean shouldFight() {
+<span class="fc" id="L38">        return creatureInRoomWithMe();</span>
+    }
+
+    Boolean creatureInRoomWithMe() {
+<span class="fc" id="L42">        return getCurrentLocation().hasLivingCreatures();</span>
+    }
+
+    @Override
+    public Boolean isAdventurer() {
+<span class="fc" id="L47">        return true;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Maze.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Polymorphia-Homework-Sequence</a> &gt; <a href="index.source.html" class="el_package">polymorphia</a> &gt; <span class="el_source">Maze.java</span></div><h1>Maze.java</h1><pre class="source lang-java linenums">package polymorphia;
+
+import polymorphia.characters.Adventurer;
+import polymorphia.characters.Character;
+import polymorphia.characters.Creature;
+import polymorphia.characters.Guard;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class Maze {
+    private final Random rand;
+
+    private final List&lt;Room&gt; rooms;
+
+<span class="fc" id="L17">    public Maze(List&lt;Room&gt; rooms, List&lt;Character&gt; characters, Random rand) {</span>
+<span class="fc" id="L18">        this.rooms = rooms;</span>
+<span class="fc" id="L19">        this.rand = rand;</span>
+<span class="fc" id="L20">        addCharacters(characters);</span>
+<span class="fc" id="L21">    }</span>
+
+    public Maze(List&lt;Room&gt; rooms, List&lt;Character&gt; characters) {
+<span class="nc" id="L24">        this(rooms, characters, new Random());</span>
+<span class="nc" id="L25">    }</span>
+
+    public Maze(List&lt;Room&gt; rooms) {
+<span class="nc" id="L28">        this(rooms, List.of());</span>
+<span class="nc" id="L29">    }</span>
+
+    public Maze() {
+<span class="nc" id="L32">        this(create2x2Rooms(), defaultCharacters(), new Random());</span>
+<span class="nc" id="L33">    }</span>
+
+    public static Maze create2x2() {
+<span class="fc" id="L36">        return new Maze(create2x2Rooms(), defaultCharacters(), new Random());</span>
+    }
+
+    public static Maze create2x2(List&lt;Character&gt; characters) {
+<span class="fc" id="L40">        return new Maze(create2x2Rooms(), characters, new Random());</span>
+    }
+
+    public static Maze create2x2(List&lt;Character&gt; characters, Random rand) {
+<span class="fc" id="L44">        return new Maze(create2x2Rooms(), characters, rand);</span>
+    }
+
+    public static Maze create3x3() {
+<span class="nc" id="L48">        return new Maze(create3x3Rooms(), defaultCharacters(), new Random());</span>
+    }
+
+    public static Maze create3x3(List&lt;Character&gt; characters) {
+<span class="fc" id="L52">        return new Maze(create3x3Rooms(), characters, new Random());</span>
+    }
+
+    public static Maze create3x3(List&lt;Character&gt; characters, Random rand) {
+<span class="fc" id="L56">        return new Maze(create3x3Rooms(), characters, rand);</span>
+    }
+
+    public int size() {
+<span class="fc" id="L60">        return rooms.size();</span>
+    }
+
+    public String toString() {
+<span class="fc" id="L64">        return String.join(&quot;\n\n&quot;, rooms.stream().map(Object::toString).toList());</span>
+    }
+
+    public Boolean hasLivingCreatures() {
+<span class="fc" id="L68">        return rooms.stream().anyMatch(Room::hasLivingCreatures);</span>
+    }
+
+    public Boolean hasLivingAdventurers() {
+<span class="fc" id="L72">        return rooms.stream().anyMatch(Room::hasLivingAdventurers);</span>
+    }
+
+    public void addCharacters(List&lt;Character&gt; characters) {
+<span class="fc bfc" id="L76" title="All 2 branches covered.">        for (Character character : characters) {</span>
+<span class="fc" id="L77">            addToRandomRoom(character);</span>
+<span class="fc" id="L78">        }</span>
+<span class="fc" id="L79">    }</span>
+
+    private Room getRandomRoom() {
+<span class="fc" id="L82">        return rooms.get(rand.nextInt(rooms.size()));</span>
+    }
+
+    public List&lt;Character&gt; getLivingCreatures() {
+<span class="fc" id="L86">        List&lt;Character&gt; creatures = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L87" title="All 2 branches covered.">        for (Room room : rooms) {</span>
+<span class="fc" id="L88">            creatures.addAll(room.getLivingCreatures());</span>
+<span class="fc" id="L89">        }</span>
+<span class="fc" id="L90">        return creatures;</span>
+    }
+
+    public List&lt;Character&gt; getLivingCharacters() {
+<span class="fc" id="L94">        List&lt;Character&gt; characters = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L95" title="All 2 branches covered.">        for (Room room : rooms) {</span>
+<span class="fc" id="L96">            characters.addAll(room.getLivingCharacters());</span>
+<span class="fc" id="L97">        }</span>
+<span class="fc" id="L98">        return characters;</span>
+    }
+
+    public void addToRandomRoom(Character character) {
+<span class="fc" id="L102">        getRandomRoom().add(character);</span>
+<span class="fc" id="L103">    }</span>
+
+    public boolean hasLivingCharacters() {
+<span class="nc" id="L106">        return getLivingCharacters().stream().anyMatch(Character::isAlive);</span>
+    }
+
+    private static List&lt;Character&gt; defaultCharacters() {
+<span class="fc" id="L110">        return List.of(</span>
+                new Adventurer(&quot;Bilbo&quot;),
+                new Creature(&quot;Ogre&quot;),
+                new Guard(&quot;Guard&quot;)
+        );
+    }
+
+    private static List&lt;Room&gt; create2x2Rooms() {
+<span class="fc" id="L118">        List&lt;Room&gt; rooms = new ArrayList&lt;&gt;();</span>
+
+<span class="fc" id="L120">        Room northwest = new Room(&quot;Northwest&quot;);</span>
+<span class="fc" id="L121">        rooms.add(northwest);</span>
+<span class="fc" id="L122">        Room northeast = new Room(&quot;Northeast&quot;);</span>
+<span class="fc" id="L123">        rooms.add(northeast);</span>
+<span class="fc" id="L124">        Room southwest = new Room(&quot;Southwest&quot;);</span>
+<span class="fc" id="L125">        rooms.add(southwest);</span>
+<span class="fc" id="L126">        Room southeast = new Room(&quot;Southeast&quot;);</span>
+<span class="fc" id="L127">        rooms.add(southeast);</span>
+
+<span class="fc" id="L129">        northwest.connect(northeast).connect(southwest);</span>
+<span class="fc" id="L130">        northeast.connect(southeast);</span>
+<span class="fc" id="L131">        southwest.connect(southeast);</span>
+
+<span class="fc" id="L133">        return rooms;</span>
+    }
+
+    private static List&lt;Room&gt; create3x3Rooms() {
+<span class="fc" id="L137">        List&lt;Room&gt; rooms = new ArrayList&lt;&gt;();</span>
+
+<span class="fc" id="L139">        Room northwest = new Room(&quot;Northwest&quot;);</span>
+<span class="fc" id="L140">        Room north = new Room(&quot;North&quot;);</span>
+<span class="fc" id="L141">        Room northeast = new Room(&quot;Northeast&quot;);</span>
+<span class="fc" id="L142">        Room west = new Room(&quot;West&quot;);</span>
+<span class="fc" id="L143">        Room center = new Room(&quot;Center&quot;);</span>
+<span class="fc" id="L144">        Room east = new Room(&quot;East&quot;);</span>
+<span class="fc" id="L145">        Room southwest = new Room(&quot;Southwest&quot;);</span>
+<span class="fc" id="L146">        Room south = new Room(&quot;South&quot;);</span>
+<span class="fc" id="L147">        Room southeast = new Room(&quot;Southeast&quot;);</span>
+
+<span class="fc" id="L149">        rooms.add(northwest);</span>
+<span class="fc" id="L150">        rooms.add(north);</span>
+<span class="fc" id="L151">        rooms.add(northeast);</span>
+<span class="fc" id="L152">        rooms.add(west);</span>
+<span class="fc" id="L153">        rooms.add(center);</span>
+<span class="fc" id="L154">        rooms.add(east);</span>
+<span class="fc" id="L155">        rooms.add(southwest);</span>
+<span class="fc" id="L156">        rooms.add(south);</span>
+<span class="fc" id="L157">        rooms.add(southeast);</span>
+
+<span class="fc" id="L159">        northwest.connect(north).connect(west);</span>
+<span class="fc" id="L160">        north.connect(northeast).connect(center);</span>
+<span class="fc" id="L161">        west.connect(center).connect(southwest);</span>
+<span class="fc" id="L162">        center.connect(east).connect(south);</span>
+<span class="fc" id="L163">        east.connect(northeast).connect(southeast);</span>
+<span class="fc" id="L164">        southwest.connect(south);</span>
+<span class="fc" id="L165">        south.connect(southeast);</span>
+
+<span class="fc" id="L167">        return rooms;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>
