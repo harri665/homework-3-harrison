@@ -2,6 +2,7 @@ package polymorphia.characters;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import polymorphia.FixedDie;
 import polymorphia.Room;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -48,6 +49,21 @@ public class CharacterTest {
         System.out.println("After the fight, Joe's health is: " + joe.getHealth());
         assertTrue(joe.getHealth() <= (joesHealthBeforeFight - Character.HEALTH_LOST_IN_FIGHT_REGARDLESS_OF_OUTCOME));
         assertTrue(ogre.getHealth() <= (ogreHealthBeforeFight - Character.HEALTH_LOST_IN_FIGHT_REGARDLESS_OF_OUTCOME));
+    }
+
+    @Test
+    void testFightWithInjectedFixedDie() {
+        FixedDie fixedDie = new FixedDie(3);
+        Character hero = new Adventurer("Hero", fixedDie);
+        Character villain = new Creature("Villain", fixedDie);
+
+        Double heroHealthBeforeFight = hero.getHealth();
+        Double villainHealthBeforeFight = villain.getHealth();
+
+        hero.fight(villain);
+
+        assertEquals(heroHealthBeforeFight - Character.HEALTH_LOST_IN_FIGHT_REGARDLESS_OF_OUTCOME, hero.getHealth());
+        assertEquals(villainHealthBeforeFight - Character.HEALTH_LOST_IN_FIGHT_REGARDLESS_OF_OUTCOME, villain.getHealth());
     }
 
     @Test

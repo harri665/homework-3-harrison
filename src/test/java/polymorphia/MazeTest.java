@@ -2,6 +2,11 @@ package polymorphia;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import polymorphia.characters.Adventurer;
+import polymorphia.characters.Creature;
+import polymorphia.characters.Guard;
+
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -12,7 +17,11 @@ public class MazeTest {
 
     @BeforeEach
     void setUp() {
-        maze = new Maze();
+        maze = Maze.create2x2(List.of(
+                new Adventurer("Bilbo"),
+                new Creature("Ogre"),
+                new Guard("Guard")
+        ));
     }
 
     @Test
@@ -32,8 +41,7 @@ public class MazeTest {
 
     @Test
     void testLivingCreatures() {
-        // In current state of the Maze class, it creates and places two Creatures. This is hidden in the test and therefore, not a great
-        //  test or implementation of the Maze class.
+        // The maze was created with two creatures (Creature + Guard).
         assertEquals(2, maze.getLivingCreatures().size());
     }
 
@@ -44,5 +52,16 @@ public class MazeTest {
         assertTrue(maze.toString().contains("Northwest"));
         assertTrue(maze.toString().contains("Bilbo"));
         assertTrue(maze.toString().contains("Ogre"));
+    }
+
+    @Test
+    void create3x3Grid() {
+        Maze bigMaze = Maze.create3x3(List.of(
+                new Adventurer("Frodo"),
+                new Creature("Troll"),
+                new Guard("Sentinel")
+        ));
+        assertEquals(9, bigMaze.size());
+        assertTrue(bigMaze.toString().contains("Center"));
     }
 }

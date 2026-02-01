@@ -1,13 +1,19 @@
 package polymorphia.characters;
 
 
+import polymorphia.Die;
 import polymorphia.Room;
 
+// Inheritance: Adventurer extends Character to reuse and specialize shared behavior.
 public class Adventurer extends Character {
     static Double DEFAULT_INITIAL_HEALTH = 5.0;
 
     public Adventurer(String name) {
-        super(name, DEFAULT_INITIAL_HEALTH);
+        super(name, DEFAULT_INITIAL_HEALTH, Die.sixSided());
+    }
+
+    public Adventurer(String name, Die die) {
+        super(name, DEFAULT_INITIAL_HEALTH, die);
     }
 
     public void enterRoom(Room room) {

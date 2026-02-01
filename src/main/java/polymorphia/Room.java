@@ -63,6 +63,7 @@ public class Room {
     }
 
     public Boolean hasLivingCreatures() {
+        // Encapsulation: Room answers questions about its contents without exposing internal lists.
         return getLivingCharacters().stream().anyMatch(Character::isCreature);
     }
 

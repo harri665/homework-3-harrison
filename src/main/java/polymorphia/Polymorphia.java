@@ -1,20 +1,30 @@
 package polymorphia;
 
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import polymorphia.characters.Character;
 
 import java.util.List;
 import java.util.Random;
 
 public class Polymorphia {
-    static Logger logger = org.slf4j.LoggerFactory.getLogger(Polymorphia.class);
+    static Logger logger = LoggerFactory.getLogger(Polymorphia.class);
 
-    Maze maze;
-    Integer turnCount = 0;
-    final Random rand = new Random();
+    private final Maze maze;
+    private Integer turnCount = 0;
+    private final Random rand;
 
     public Polymorphia() {
-        maze = new Maze();
+        this(Maze.create2x2(), new Random());
+    }
+
+    public Polymorphia(Maze maze) {
+        this(maze, new Random());
+    }
+
+    public Polymorphia(Maze maze, Random rand) {
+        this.maze = maze;
+        this.rand = rand;
     }
 
     public String toString() {
@@ -37,7 +47,7 @@ public class Polymorphia {
 
     public void playTurn() {
         if (turnCount == 0) {
-            System.out.println("Starting play...");
+            logger.info("Starting play...");
         }
         turnCount += 1;
 
@@ -47,6 +57,7 @@ public class Polymorphia {
             int index = rand.nextInt(characters.size());
             Character character = characters.get(index);
             if (character.isAlive()) {
+                // Polymorphism: each Character subtype provides its own action behavior.
                 character.doAction();
             }
             characters.remove(index);
@@ -60,10 +71,10 @@ public class Polymorphia {
 
     public void play() {
         while (!isOver()) {
-            System.out.println(this);
             playTurn();
+            logger.info("{}", this);
         }
-        System.out.println("The game ended after " + turnCount + " turns.");
+        logger.info("The game ended after {} turns.", turnCount);
         String eventDescription;
         if (hasLivingAdventurers()) {
             eventDescription = "The adventurers won! Left standing are: " + getAdventurerNames() + "\n";
@@ -72,7 +83,7 @@ public class Polymorphia {
         } else {
             eventDescription = "No team won! Everyone died!\n";
         }
-        System.out.println(eventDescription);
+        logger.info(eventDescription);
     }
 
     String getAdventurerNames() {

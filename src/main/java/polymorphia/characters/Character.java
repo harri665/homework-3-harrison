@@ -1,5 +1,7 @@
 package polymorphia.characters;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import polymorphia.Die;
 import polymorphia.Room;
 
@@ -8,10 +10,12 @@ abstract public class Character {
     static final Double HEALTH_LOST_IN_FIGHT_REGARDLESS_OF_OUTCOME = 0.5;
     static final Double HEALTH_LOST_IN_MOVING_ROOMS = 0.25;
 
+    private static final Logger logger = LoggerFactory.getLogger(Character.class);
+
     protected String name;
     private Double health;
 
-    Die die = Die.sixSided();
+    private final Die die;
 
     private Room currentLocation;
 
@@ -20,12 +24,18 @@ abstract public class Character {
     }
 
     public Character(String name) {
-        this(name, DEFAULT_INITIAL_HEALTH);
+        this(name, DEFAULT_INITIAL_HEALTH, Die.sixSided());
     }
 
     public Character(String name, Double initialHealth) {
+        this(name, initialHealth, Die.sixSided());
+    }
+
+    public Character(String name, Double initialHealth, Die die) {
+        // Dependency Injection: the die is passed in rather than constructed here.
         this.name = name;
         this.health = initialHealth;
+        this.die = die;
     }
 
     public void enterRoom(Room room) {
@@ -44,7 +54,7 @@ abstract public class Character {
         health -= healthPoints;
 
         if (health <= 0) {
-            System.out.println(name + " just died!");
+            logger.info("{} just died!", name);
         }
     }
 
@@ -72,18 +82,22 @@ abstract public class Character {
         return false;
     }
 
+    protected Die getDie() {
+        return die;
+    }
+
     void fight(Character opponent) {
-        Integer adventurerRoll = die.roll();
-        Integer creatureRoll = die.roll();
-        System.out.println(getName() + " is fighting " + opponent);
+        Integer myRoll = getDie().roll();
+        Integer opponentRoll = opponent.getDie().roll();
+        logger.debug("{} is fighting {}", getName(), opponent);
 
-        System.out.println(getName() + " rolled " + adventurerRoll);
-        System.out.println(opponent + " rolled " + creatureRoll);
+        logger.debug("{} rolled {}", getName(), myRoll);
+        logger.debug("{} rolled {}", opponent, opponentRoll);
 
-        if (adventurerRoll > creatureRoll) {
-            opponent.loseFightDamage(adventurerRoll - creatureRoll);
-        } else if (creatureRoll > adventurerRoll) {
-            loseFightDamage(creatureRoll - adventurerRoll);
+        if (myRoll > opponentRoll) {
+            opponent.loseFightDamage(myRoll - opponentRoll);
+        } else if (opponentRoll > myRoll) {
+            loseFightDamage(opponentRoll - myRoll);
         }
 
         loseHealth(Character.HEALTH_LOST_IN_FIGHT_REGARDLESS_OF_OUTCOME);
@@ -91,12 +105,12 @@ abstract public class Character {
     }
 
     public void doAction() {
-        System.out.println("Doing nothing for action for Character " + getName());
+        logger.debug("Doing nothing for action for Character {}", getName());
     }
 
     protected void move() {
         Room nextLocation = getCurrentLocation().getRandomNeighbor();
-        System.out.println(getName() + " moved from " + getCurrentLocation().getName() + " to " + nextLocation.getName());
+        logger.debug("{} moved from {} to {}", getName(), getCurrentLocation().getName(), nextLocation.getName());
         nextLocation.enter(this);
         loseHealth(HEALTH_LOST_IN_MOVING_ROOMS);
     }
